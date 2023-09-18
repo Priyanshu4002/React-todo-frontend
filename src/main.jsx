@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './styles/app.scss';
 import { createContext } from 'react';
 
-export const server = "http://localhost:4000";
+export const server = "https://to-do-webapp-wwau.onrender.com";
 
 export const Context = createContext({ isAuthenticated: false });
 

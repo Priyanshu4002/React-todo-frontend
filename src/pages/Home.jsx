@@ -75,7 +75,7 @@ const Home = () => {
       setTasks(res.data.tasks); 
     })
     .catch((e)=>{
-      toast.error(e.response.data.message);
+      toast.error(error.response.data.message);
     });
    },[refresh]);
 
